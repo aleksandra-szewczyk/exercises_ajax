@@ -4,17 +4,20 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Ajax ćwiczenia">   
-    <meta name="keywords" content="XMLHttpRequest">
+    <meta name="keywords" content="Wyszukiwarka krajów">
     <meta name="author" content="Aleksandra Szewczyk">
-    <title>XMLHttpRequest</title>
+    <title>Wyszukiwarka krajów</title>
     <link rel="stylesheet" href="css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 </head>
 <body>
-   <div>
-        <button id="get-joke">"Random joke"</button>
-        <p id="joke"></p>
-    </div>
+    <h1>Wyszukiwarka krajów</h1>
+    <button id="search">Szukaj kraju</button>
+    <input id="country-name" type="text" />
+    <h2>Lista krajów</h2>
+    <ul id="countries">
+        <li>Brak danych</li>
+    </ul>
     <script type="text/javascript" src="js/scripts.js"></script>
 </body>
 </html>
