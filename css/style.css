@@ -1,16 +1,39 @@
-div {
+body {
+    margin: 0;
+    background-color: #55acee;
+    font-family: Arial;
+}
+
+header {
+    color: white;
     text-align: center;
+    margin-top: 120px;
+}
+
+div {
+    color: white;
+    text-align: center;
+    margin-top: 150px;
 }
 
 button {
-    display: inline-block;
-    margin: 0 auto;
-    margin-top: 30px;
-    padding: 10px;
+    display: block;
+    margin: 30px auto;
+    padding: 10px 80px;
+    color: white;
     font-size: 20px;
-    
+    background: #55acee;
+    border: 2px solid white;
+    border-radius: 8px;
 }
 
-p {
+a {
+    width: 130px;
+    display: block;
+    margin: 0 auto;
+    color: white;
     text-align: center;
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 10px 80px;
 }
