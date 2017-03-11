@@ -1,31 +1,39 @@
 body {
-	background: #0099ff;
-	font-family: Arial;
+    background: #55acee;
+    font-family: Arial;
     margin: 0 auto;
 }
 
 h1 {
-	margin: 5vh;
+    margin: 5vh;
 }
 
 h1, h2, h3 {
-	text-align: center;
-	color: white;
+    text-align: center;
+    color: white;
 }
 
 button {
-    display: inline-block;
-	margin: 30px auto;
-	padding: 10px 30px;
-	background: #0099ff;
-	color: white;
+    margin: 30px auto;
+    padding: 10px 30px;
+    background: #cccccb;
+    color: white;
+    display: block;
+}
+
+input {
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
 }
 
 ul {
-	text-align: center;
+    text-align: center;
     list-style-type: none;
 }
 
-li {
+ul li {
     color: white;
+    margin-left: -40px;
+    font-size: 20px;
 }

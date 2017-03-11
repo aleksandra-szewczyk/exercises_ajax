@@ -10,12 +10,12 @@ function searchCountries() {
             url: url + countryName,
             method: 'GET',
             success: showCountriesList
-        });
+    });
 }
 
 function showCountriesList(resp) {
     countriesList.empty();
-resp.forEach(function(item) {
+    resp.forEach(function(item) {
    		$('<li>').text(item.name + ' - ' + item.capital).appendTo(countriesList);
-});
+    });
 }
